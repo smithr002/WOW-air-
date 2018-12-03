@@ -1,6 +1,3 @@
-# WOW-air-
-WOW air overzichtspagina verhalen
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,110 +12,150 @@ WOW air overzichtspagina verhalen
 <body>
     <header>
         <img src="https://valholl-prd.wowair.com/css/i/sitelogo.svg" alt="WOW air">
-        <hr>
-        <h1>WOW Story</h1>
-        <form action="http://www.example.org/search.php">
-            <p>Zoeken</p>
-            <input type="search" name="search" placeholder="Naam, gevoel, kleur.." />
-            <input type="submit" value="Zoek" />
-        </form>
-        <form action="http://www.example.org/search.php">
-            <select name="sorteer" id="sorteren">
+
+    </header>
+    <main>
+        <section>
+            <h1>WOW Story</h1>
+            <form action="http://www.example.org/search.php">
+                <label for="zoek">Zoeken:</label>
+                <input type="search" id="zoek" name="search" placeholder="Naam, gevoel, kleur.." />
+                <input type="submit" value="Zoek" />
+            </form>
+            <form action="http://www.example.org/search.php">
+                <label for="sorteren">Sorteren:</label>
+                <select name="sorteer" id="sorteren">
                <option value="nummering oplopend">Nummering oplopend</option>
                 <option value="nummering aflopend">Nummering aflopend</option>
                 <option value="populariteit oplopend">Populariteit oplopend</option>
                 <option value="populariteit aflopend">Populariteit aflopend</option>
                 </select>
-        </form>
-        <button type="button"><i class="fas fa-filter"></i></button>
-        <!-- als hier op geklikt wordt komen de filters naar boven -->
-    </header>
-    <main>
+            </form>
+            <button type="button"><i class="fas fa-filter"></i></button>
+            <!-- als hier op geklikt wordt komen de filters naar boven -->
+        </section>
+
+
         <section class="dedag">
             <h2>Verhaal van de dag</h2>
+            <article class="card">
+                <a href="">
+                <img src="https://valholl-prd.s3.amazonaws.com/images/myndir_forsida_Boston.2e16d0ba.fill-565x175-c100.jpg" alt="voorbeeld verhaal">
+                <div>
+                    <h3>Nichterig</h3>
+                    <p></p>
+                    <div class="sterren">
+                        <i class="fas fa-star"></i> <!-- de sterren geven de feedbak van andere aan -->
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    </div>
 
-            <a href="" class="card">
-                <img src="images/Screen%20Shot%202018-11-28%20at%2012.04.40.png" alt="voorbeeld verhaal">
-                <div class="container">
-                    <h3>Titel</h3>
-                    <i class="fas fa-star"></i> <!-- de sterren geven de feedbak van andere aan -->
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
                     <!--hier komt ook nog meta data-->
                     <i class="fas fa-download"></i> <!--met deze knop kunnen gebruikers verhalen downloaden-->
                 </div>
             </a>
+            </article>
+
 
         </section>
         <section class="negennegen">
             <h2>99 Verhalen</h2>
-            <a href="" class="card">
+            <article class="card">
+                <a href="">
                 <img src="images/Screen%20Shot%202018-11-28%20at%2012.04.40.png" alt="voorbeeld verhaal">
                 <div class="container">
                     <h3>Titel</h3>
-                    <i class="fas fa-star"></i> <!-- de sterren geven de feedbak van andere aan -->
+                    <div class="sterren">
+                        <i class="fas fa-star"></i> <!-- de sterren geven de feedbak van andere aan -->
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                     <i class="far fa-star"></i>
+                    </div>
+
                     <!--hier komt ook nog meta data-->
                     <i class="fas fa-download"></i> <!--met deze knop kunnen gebruikers verhalen downloaden-->
                 </div>
             </a>
-            <a href="" class="card">
+            </article>
+            <article class="card">
+                <a href="">
                 <img src="images/Screen%20Shot%202018-11-28%20at%2012.04.40.png" alt="voorbeeld verhaal">
                 <div class="container">
                     <h3>Titel</h3>
-                    <i class="fas fa-star"></i> <!-- de sterren geven de feedbak van andere aan -->
+
+                    <div class="sterren">
+                        <i class="fas fa-star"></i> <!-- de sterren geven de feedbak van andere aan -->
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                     <i class="far fa-star"></i>
+                    </div>
+
                     <!--hier komt ook nog meta data-->
                     <i class="fas fa-download"></i> <!--met deze knop kunnen gebruikers verhalen downloaden-->
                 </div>
             </a>
-            <a href="" class="card">
+            </article>
+            <article class="card">
+                <a href="">
                 <img src="images/Screen%20Shot%202018-11-28%20at%2012.04.40.png" alt="voorbeeld verhaal">
                 <div class="container">
                     <h3>Titel</h3>
-                    <i class="fas fa-star"></i> <!-- de sterren geven de feedbak van andere aan -->
+
+                    <div class="sterren">
+                        <i class="fas fa-star"></i> <!-- de sterren geven de feedbak van andere aan -->
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                     <i class="far fa-star"></i>
+                    </div>
+
                     <!--hier komt ook nog meta data-->
                     <i class="fas fa-download"></i> <!--met deze knop kunnen gebruikers verhalen downloaden-->
                 </div>
             </a>
-            <a href="" class="card">
+            </article>
+            <article class="card">
+                <a href="">
                 <img src="images/Screen%20Shot%202018-11-28%20at%2012.04.40.png" alt="voorbeeld verhaal">
                 <div class="container">
                     <h3>Titel</h3>
-                    <i class="fas fa-star"></i> <!-- de sterren geven de feedbak van andere aan -->
+
+                    <div class="sterren">
+                        <i class="fas fa-star"></i> <!-- de sterren geven de feedbak van andere aan -->
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                     <i class="far fa-star"></i>
+                    </div>
+
                     <!--hier komt ook nog meta data-->
                     <i class="fas fa-download"></i> <!--met deze knop kunnen gebruikers verhalen downloaden-->
                 </div>
             </a>
-            <a href="" class="card">
+            </article>
+            <article class="card">
+                <a href="">
                 <img src="images/Screen%20Shot%202018-11-28%20at%2012.04.40.png" alt="voorbeeld verhaal">
                 <div class="container">
                     <h3>Titel</h3>
-                    <i class="fas fa-star"></i> <!-- de sterren geven de feedbak van andere aan -->
+
+                    <div class="sterren">
+                        <i class="fas fa-star"></i> <!-- de sterren geven de feedbak van andere aan -->
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                     <i class="far fa-star"></i>
+                    </div>
+
                     <!--hier komt ook nog meta data-->
                     <i class="fas fa-download"></i> <!--met deze knop kunnen gebruikers verhalen downloaden-->
                 </div>
             </a>
+            </article>
         </section>
         <section>
             <h2>Filters</h2>
@@ -169,10 +206,11 @@ WOW air overzichtspagina verhalen
         </section>
     </main>
     <footer>
-        <!-- hier komt metadata en navigatie van site-->
+
 
     </footer>
 </body>
 
 </html>
+
 
